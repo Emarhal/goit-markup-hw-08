@@ -1,0 +1,56 @@
+// Button
+
+.button {
+  cursor: pointer;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+
+  border-radius: 4px;
+  border: none;
+
+  &-studio {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    padding: 10px 32px;
+    display: block;
+    margin: 0 auto;
+    /* margin-top: 30px; */
+  }
+}
+
+// Button Portfolio
+
+.btn-portfolio {
+  color: var(--title-text-color);
+  background-color: var(--our-team-color);
+
+  padding: 6px 22px;
+
+  &:hover {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+  }
+}
+
+.btn-list {
+  padding-top: 94px;
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+
+  & .item + .item {
+    margin-left: 8px;
+  }
+}

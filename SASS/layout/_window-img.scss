@@ -1,0 +1,29 @@
+.img-item {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+.img-item .item + .item {
+  margin-left: 30px;
+}
+
+.img-item-window {
+  position: relative;
+}
+
+.window-text-img-section {
+  padding: 27px 0;
+  color: var(--primary-white-color);
+  background: rgba(47, 48, 58, 0.8);
+  width: 100%;
+
+  position: absolute;
+  bottom: 0;
+}
+.window-text-img {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+}

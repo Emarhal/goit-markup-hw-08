@@ -1,0 +1,128 @@
+.footer {
+  background-color: var(--footer-background-color);
+}
+
+.footer-address-container {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  justify-content: space-between;
+}
+
+.footer-address-container .logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer-address-text {
+  color: var(--primary-white-color);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  margin-bottom: 9px;
+}
+
+.footer-address-link {
+  color: var(--contacts-bottom-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.footer-address-list .item + .item {
+  margin-top: 9px;
+}
+
+/* Social link footer */
+
+.title-footer-social {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--primary-white-color);
+
+  margin-bottom: 20px;
+}
+
+.social-link-list-footer {
+  display: flex;
+}
+
+.social-link-footer {
+  display: flex;
+  width: 44px;
+  height: 44px;
+
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid transparent;
+  border-radius: 50%;
+
+  justify-content: center;
+  align-items: center;
+
+  &:hover,
+  &:focus {
+    background: #2196f3;
+  }
+}
+
+.social-item-footer + .social-item-footer {
+  margin-left: 10px;
+}
+
+.social-link-icon-footer {
+  width: 20px;
+  height: 20px;
+  fill: var(--primary-white-color);
+}
+
+/* Input and twitter */
+
+.footer-form-section-input {
+  display: flex;
+}
+
+.footer-form-input {
+  width: 358px;
+
+  padding: 13px 29px;
+
+  background-color: inherit;
+  color: var(--primary-white-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.footer-input-img-tw {
+  display: flex;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  padding: 13px 29px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  margin-left: 12px;
+}
+
+.footer-input-tw {
+  display: block;
+  margin-left: 10px;
+}

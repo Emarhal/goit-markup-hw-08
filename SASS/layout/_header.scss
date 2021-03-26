@@ -1,0 +1,131 @@
+// Header
+
+.header-top {
+  display: flex;
+  align-items: center;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+/* Logo styles */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+
+  & .logo-blue {
+    color: var(--accent-color);
+  }
+  & .logo-black {
+    color: var(--primary-black-color);
+  }
+  & .logo-white {
+    color: var(--primary-white-color);
+  }
+}
+
+/* Navigation */
+
+.navigation-list {
+  display: flex;
+  margin-left: 93px;
+
+  & .item {
+    margin-right: 50px;
+    position: relative;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.navigation-list .nav-items {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
+
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  & .current {
+    color: var(--accent-color);
+  }
+  &.current::after {
+    width: 100%;
+  }
+}
+
+/* Contacts Email tel Top */
+
+.contacts-top-list {
+  display: flex;
+  margin-left: auto;
+}
+.contacts-top-list .item + .item {
+  margin-left: 50px;
+}
+.contacts-top-link {
+  display: flex;
+  color: var(--all-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  align-items: center;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+  }
+}
+
+.icon-top-contacts {
+  fill: #757575;
+  width: 16px;
+  height: 10px;
+  margin-right: 10px;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+  }
+
+  .contacts-top-link:hover &,
+  .contacts-top-link:focus & {
+    fill: var(--accent-color);
+  }
+}

@@ -1,0 +1,29 @@
+.engage {
+  display: flex;
+
+  & .item + .item {
+    margin-left: 30px;
+  }
+  &-section-icon {
+    background-color: #f5f4fa;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+  }
+  &-vector-icon {
+    width: 70px;
+    height: 70px;
+  }
+  &-title {
+    color: var(--title-text-color);
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+  }
+  &-text {
+    color: var(--all-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}

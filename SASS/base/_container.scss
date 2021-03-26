@@ -1,7 +1,19 @@
 .container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 100%;
   margin: 0 auto;
-  /* outline: 2px solid tomato; */
+
+  padding-right: 15px;
+  padding-left: 15px;
+
+  display: block;
+
+  // outline: 2px solid tomato;
 }
+
+// .container {
+//   width: 1200px;
+//   padding-left: 15px;
+//   padding-right: 15px;
+//   margin: 0 auto;
+//   /* outline: 2px solid tomato; */
+// }

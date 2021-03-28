@@ -94,10 +94,10 @@
             </div>
         </section>
         <!-- Window Image section -->
-        <!-- <section>
+        <section class="window-img-section">
            <div class="container section-container">
                 <h2 class="title">Чем мы занимаемся</h2>
-                <ul class="list container img-item">
+                <ul class="list img-item">
                     <li class="item img-item-window">
                         <img width="370" height="294" src="./images/prints.jpg" alt="prints">
                         <div class="window-text-img-section">
@@ -118,16 +118,21 @@
                     </li>
                 </ul>
            </div>
-        </section> -->
+        </section>
         <!-- Our team -->
         <section class="our-squad">
             <div class="container section-container">
                 <h2 class="title">Наша команда</h2>
-                <ul class="list container our-team">
+                <ul class="list our-team">
                     <li class="our-team__item">
-                        <picture class="our-team__img">                            
+                        <picture>
+                            <source srcset="./images/our-team/desktop/igor-demianenko.jpg 1x,
+                            ./images/our-team/desktop/igor-demianenko@2x.jpg 2x" media="(min-width: 1200px)">
+                            <source srcset="./images/our-team/tablet/igor-demianenko.jpg 1x, 
+                            ./images/our-team/tablet/igor-demianenko@2x.jpg 2x" media="(min-width: 768px)">
                             <img srcset="./images/our-team/mobile/igor-demianenko@2x.jpg 2x" 
-                            src="./images/our-team/mobile/igor-demianenko.jpg" alt="Игорь Демьяненко">
+                            src="./images/our-team/mobile/igor-demianenko.jpg" 
+                            alt="Игорь Демьяненко" class="our-team__img">
                         </picture>                        
                         <div class="team-section-bottom">
                             <h3 class="full-name-title">Игорь Демьяненко</h3>
@@ -165,9 +170,15 @@
                         </div>
                     </li>
                     <li class="our-team__item">
-                        <picture class="our-team__img">
-                            <img srcset="./images/our-team/mobile/olga-repina@2x.jpg 2x" src="./images/our-team/mobile/olga-repina.jpg"
-                                alt="Игорь Демьяненко">
+                        <picture>
+                            <source srcset="./images/our-team/desktop/olga-repina.jpg 1x,
+                            ./images/our-team/desktop/olga-repina@2x.jpg 2x" media="(min-width: 1200px)">
+                            <source srcset="./images/our-team/tablet/olga-repina.jpg 1x, 
+                            ./images/our-team/tablet/olga-repina@2x.jpg 2x"
+                             media="(min-width: 768px)">
+                            <img srcset="./images/our-team/mobile/olga-repina@2x.jpg 2x" 
+                            src="./images/our-team/mobile/olga-repina.jpg"
+                                alt="Ольга Репина" class="our-team__img">
                         </picture>
                         <div class="team-section-bottom">
                             <h3 class="full-name-title">Ольга Репина</h3>
@@ -205,9 +216,14 @@
                         </div>
                     </li>
                     <li class="our-team__item">
-                        <picture class="our-team__img">
-                            <img srcset="./images/our-team/mobile/nikolai-tarasov@2x.jpg 2x" src="./images/our-team/mobile/nikolai-tarasov.jpg"
-                                alt="Игорь Демьяненко">
+                        <picture>
+                            <source srcset="./images/our-team/desktop/nikolai-tarasov.jpg 1x,
+                            ./images/our-team/desktop/nikolai-tarasov@2x.jpg 2x" media="(min-width: 1200px)">
+                            <source srcset="./images/our-team/tablet/nikolai-tarasov.jpg 1x, 
+                            ./images/our-team/tablet/nikolai-tarasov@2x.jpg 2x" media="(min-width: 768px)">
+                            <img srcset="./images/our-team/mobile/nikolai-tarasov@2x.jpg 2x" 
+                            src="./images/our-team/mobile/nikolai-tarasov.jpg"
+                                alt="Николай Тарасов" class="our-team__img">
                         </picture>
                         <div class="team-section-bottom">
                             <h3 class="full-name-title">Николай Тарасов</h3>
@@ -245,9 +261,13 @@
                         </div>
                     </li>
                     <li class="our-team__item">
-                        <picture class="our-team__img">
+                        <picture>
+                            <source srcset="./images/our-team/desktop/mikhail-ermakov.jpg 1x,
+                            ./images/our-team/desktop/mikhail-ermakov@2x.jpg 2x" media="(min-width: 1200px)">
+                            <source srcset="./images/our-team/tablet/mikhail-ermakov.jpg 1x, 
+                            ./images/our-team/tablet/mikhail-ermakov@2x.jpg 2x" media="(min-width: 768px)">
                             <img srcset="./images/our-team/mobile/mikhail-ermakov@2x.jpg 2x" src="./images/our-team/mobile/mikhail-ermakov.jpg"
-                                alt="Игорь Демьяненко">
+                                alt="Михаил Ермаков" class="our-team__img">
                         </picture>
                         <div class="team-section-bottom">
                             <h3 class="full-name-title">Михаил Ермаков</h3>

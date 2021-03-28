@@ -27,6 +27,32 @@
   margin-bottom: 30px;
 }
 
+@media (min-width: 768px) {
+  .banner-section {
+    background-image: url(../../images/hero/tablet/hero.jpg);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      & {
+        background-image: url(../../images/hero/tablet/hero@2x.jpg);
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .banner-section {
+    background-image: url(../../images/hero/desktop/hero.jpg);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      & {
+        background-image: url(../../images/hero/desktop/hero@2x.jpg);
+      }
+    }
+  }
+}
+
 // .banner-section {
 //   background-color: var(--footer-background-color);
 //   background-image: linear-gradient(

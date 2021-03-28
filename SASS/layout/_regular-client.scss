@@ -8,7 +8,7 @@
   margin-left: -30px;
 
   &-item {
-    // width: calc(100% / 2 - 30px);
+    width: calc(100% / 2 - 30px);
     margin-top: 30px;
     margin-left: 30px;
   }
@@ -16,18 +16,18 @@
   &-link {
     display: flex;
     border: 1px solid #afb1b8;
-    min-width: 170px;
+    // min-width: 170px;
     min-height: 90px;
     justify-content: center;
     align-items: center;
 
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover,
-    &:focus {
-      fill: var(--accent-color);
-      border: 1px solid var(--accent-color);
-    }
+    // &:hover,
+    // &:focus {
+    //   fill: var(--accent-color);
+    //   border: 1px solid var(--accent-color);
+    // }
   }
 
   &-icon {
@@ -35,9 +35,32 @@
 
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    .regular-client-link:hover &,
-    .regular-client-link:focus & {
-      fill: var(--accent-color);
-    }
+    // .regular-client-link:hover &,
+    // .regular-client-link:focus & {
+    //   fill: var(--accent-color);
+    // }
+  }
+}
+
+@media (min-width: 768px) {
+  .regular-client-item {
+    width: calc(100% / 3 - 30px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .regular-client-item {
+    width: calc(100% / 6 - 30px);
+  }
+
+  .regular-client-link:hover .regular-client-icon,
+  .regular-client-link:focus .regular-client-icon {
+    fill: var(--accent-color);
+  }
+
+  .regular-client-link:hover,
+  .regular-client-link:hover {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
   }
 }

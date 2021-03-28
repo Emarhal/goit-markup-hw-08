@@ -32,25 +32,64 @@
 
 // Button Portfolio
 
-.btn-portfolio {
-  color: var(--title-text-color);
-  background-color: var(--our-team-color);
-
-  padding: 6px 22px;
-
-  &:hover {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
-  }
+.portfolio-btn__section {
+  padding-top: 60px;
+  // padding-bottom: 40px;
 }
 
-.btn-list {
-  padding-top: 94px;
+.portfolio-btn {
   display: flex;
-  margin-bottom: 50px;
-  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: -8px;
+  margin-top: -15px;
 
-  & .item + .item {
+  &__item {
     margin-left: 8px;
+    margin-top: 15px;
+  }
+  &__button {
+    color: var(--title-text-color);
+    background-color: var(--our-team-color);
+
+    &:hover {
+      color: var(--primary-white-color);
+      background-color: var(--accent-color);
+    }
   }
 }
+
+@media (min-width: 768px) {
+  .portfolio-btn {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio-btn {
+    justify-content: center;
+  }
+}
+
+// .btn-portfolio {
+//   color: var(--title-text-color);
+//   background-color: var(--our-team-color);
+
+//   padding: 6px 22px;
+
+//   &:hover {
+//     color: var(--primary-white-color);
+//     background-color: var(--accent-color);
+//   }
+// }
+
+// .btn-list {
+//   padding-top: 94px;
+//   display: flex;
+//   flex-wrap: wrap;
+//   margin-bottom: 50px;
+//   // justify-content: center;
+
+//   & .item + .item {
+//     margin-left: 8px;
+//   }
+// }

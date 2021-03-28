@@ -445,7 +445,7 @@ body {
 
 .banner-section {
   background-color: var(--footer-background-color);
-  background-image: url(../../images/hero/mobile/hero.jpg);
+  background-image: url(../images/hero/mobile/hero.jpg);
   padding-top: 118px;
   padding-bottom: 118px;
   margin: 0 auto;
@@ -455,7 +455,7 @@ body {
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .banner-section {
-    background-image: url(../../images/hero/mobile/hero@2x.jpg);
+    background-image: url(../images/hero/mobile/hero@2x.jpg);
   }
 }
 
@@ -472,25 +472,25 @@ body {
 
 @media (min-width: 768px) {
   .banner-section {
-    background-image: url(../../images/hero/tablet/hero.jpg);
+    background-image: url(../images/hero/tablet/hero.jpg);
   }
 }
 
 @media (min-width: 768px) and (min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi), (min-width: 768px) and (min-resolution: 2dppx) {
   .banner-section {
-    background-image: url(../../images/hero/tablet/hero@2x.jpg);
+    background-image: url(../images/hero/tablet/hero@2x.jpg);
   }
 }
 
 @media (min-width: 1200px) {
   .banner-section {
-    background-image: url(../../images/hero/desktop/hero.jpg);
+    background-image: url(../images/hero/desktop/hero.jpg);
   }
 }
 
 @media (min-width: 1200px) and (min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 192dpi), (min-width: 1200px) and (min-resolution: 2dppx) {
   .banner-section {
-    background-image: url(../../images/hero/desktop/hero@2x.jpg);
+    background-image: url(../images/hero/desktop/hero@2x.jpg);
   }
 }
 

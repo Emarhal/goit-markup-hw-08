@@ -8,7 +8,6 @@
   margin-top: -30px;
   margin-left: -30px;
 
-  width: 100%;
   &__item {
     max-width: 100%;
     background: var(--primary-white-color);
@@ -21,6 +20,7 @@
 }
 
 .our-team__img {
+  max-width: 100%;
   width: 100%;
   height: auto;
 }
